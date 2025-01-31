@@ -45,7 +45,7 @@ pipeline {
             steps {
                 echo 'Deploying to Vercel...'
                 sh 'npm install -g vercel' 
-                sh 'vercel deploy --prod --token $VERCEL_TOKEN'
+                sh 'vercel deploy --prod --token $VERCEL_TOKEN --yes'
             }
         }
     }
