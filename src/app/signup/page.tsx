@@ -1,14 +1,14 @@
 "use client";
 
-import { User } from "@/utils/types";
+// import { User } from "@/utils/types";
 import { createUser } from "@/utils/userHelpers";
 import { useActionState } from "react";
 
-const userObj: User = {
-  username: "",
-  password: "",
-  email: "",
-};
+// const userObj: User = {
+//   username: "",
+//   password: "",
+//   email: "",
+// };
 
 const fields = [
   {
