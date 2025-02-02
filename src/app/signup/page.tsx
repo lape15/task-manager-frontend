@@ -17,16 +17,17 @@ const fields = [
     label: "Username",
     required: true,
   },
-  {
-    name: "password",
-    type: "text",
-    label: "Password",
-    required: true,
-  },
+
   {
     name: "email",
     type: "email",
     label: "Email",
+    required: true,
+  },
+  {
+    name: "password",
+    type: "text",
+    label: "Password",
     required: true,
   },
 ];
